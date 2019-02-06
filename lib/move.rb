@@ -9,6 +9,7 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(x)
+  if x<1 ||
   x = x.to_i - 1
 end 
 
