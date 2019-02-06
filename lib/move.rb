@@ -9,8 +9,10 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(x)
-  
-  
+  if x<1 || x>9
+    puts "You can only choose positions 1-9."
+    return
+  end
   x = x.to_i - 1
 end 
 
