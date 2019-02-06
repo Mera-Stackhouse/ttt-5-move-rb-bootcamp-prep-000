@@ -13,8 +13,7 @@ def input_to_index(x)
 end 
 
 def move(board, x, character = "X")
-  x = (x.to_i) - 1
-  puts x
+  x = (x.to_i)
   board[x] = "#{character}"
   return board
 end  
